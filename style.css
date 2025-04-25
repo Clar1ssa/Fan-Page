@@ -1,3 +1,41 @@
+
+body{
+    color: brown;
+    border: solid;
+    border-color: rgb(250, 34, 106);
+    border-width: 40px;
+
+}
+
+
 p{
-    color: pink;
+    padding: 10px;;
+    text-align: center;
+}
+
+p{border: rgb(241, 33, 102);
+  background-color: rgb(252, 140, 186);
+}
+
+.container{
+    display: flex;
+    background-color: aqua;
+    border: solid;
+    justify-content: center
+    align-content: space-around;
+
+
+}
+
+.item {
+    background-color: blanchedalmond;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+div{
+    color: yellow;
+    border-style: solid;
+    border-color: orange;
+    border-width: 20px;
 }
